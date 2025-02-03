@@ -1,7 +1,7 @@
 import { Connection, VersionedTransaction } from '@solana/web3.js';
 import { RPC_ENDPOINT, RPC_WEBSOCKET_ENDPOINT, TOKEN_MINT, TOKEN_NAME } from '../constants';
 import { logger } from '../utils';
-// import { sendMessage } from "../utils/tgNotification";
+import { sendMessage } from "../utils/tgNotification";
 
 interface Blockhash {
   blockhash: string;
