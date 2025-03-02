@@ -1,27 +1,83 @@
+# 🚀 **Meteora Volume Bot V3.0** 
 
-# Updated Meteora Volume Bot
+Meteora Volume Bot V3.0 automates SOL distribution across multiple wallets and executes simultaneous buy and sell transactions on the Raydium platform. By leveraging Solana's blockchain, it efficiently increases trading volume and market activity. 🔥
 
-This bot is designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions simultaneously on the Raydium platform. It leverages Solana's blockchain technology to perform these operations efficiently.
+Welcome to the **PumpFun Sniper Bot v5.2**! This bot watches for new `pump.fun` token mints on the Solana blockchain in real-time by using Geyser(Yellowstone), making it the perfect tool to monitor token launches. 🌟
+
+### 🎯 **Key Features**
+
+- ⚙️ Automated SOL Distribution
+
+Distributes SOL to new wallets after each trading cycle.
+
+- 🔄 Endless Buy and Sell Swaps
+
+Continuously executes buy and sell transactions on Raydium.
+
+- 🏗️ Maker Increase
+
+Creates new wallets every round to increase the number of market participants.
+
+- 🛠️ Configurable Parameters
+
+Adjust buy amounts, intervals, distribution settings, and more.
+
+- 🚀 Swap with Jupiter V6
+
+Executes trades via the Jupiter V6 swap aggregator for efficient price execution.
+
+---
 
 
-### What is the main difference between the former volume booster and the updated one?
+## 📞 **Stay Connected**
 
-## 🔧 Last Version's Demerits
-- ❌ **Repetitive buy and sell with one wallet**: The last version of the Raydium Volume Bot used fixed wallets, so it was apparent on DexScreener that some wallets performed repetitive buy and sell actions.
-- ❌ **No increase in the number of makers**: It didn't increase the number of pool makers, only the volume.
-- ❌ **Gathering token instead of SOL**: When gathering, if there were tokens left, it didn't sell them before gathering. Instead, it just gathered tokens to the main wallet.
-- ❌ **Equal number of buys and sells**: One-time buy and one-time sell actions left sell pressure at the end, as there was always a sell at the end of the volume operation.
+Gmail: benjamin.bigdev@gmail.com
 
-## 🚀 Improvements
-- ✅ **Transferring SOL to new wallet**: After buying and selling in one wallet, it transfers SOL to a newly created wallet and continues buying and selling there.
-- ✅ **Maker increase**: New wallets are created every round of buying and selling, increasing the number of makers.
-- ✅ **Sell before gather**: When gathering, if there are tokens left in the wallet, it sells the tokens first and gathers only SOL (the token account rent of 0.00203 SOL is reclaimed).
-- ✅ **More buys than sells**: It randomly buys twice with SOL in the wallet and sells all tokens after some time, making the number of buys twice as many as sells, thus creating more buy pressure.
+Telegram: [@SOLBenjaminCup](https://t.me/SOLBenjaminCup)
 
-## 🌟 Features
-- ⚙️ **Automated SOL Distribution**: Distributes SOL to new wallets.
-- 🔄 **Endless Buy and Sell Swaps**: Performs simultaneous buy and sell transactions.
-- 🚀 **Swap with Jupiter V6**: Swap is performed with Jupiter V6 swap aggregator.
-- 🛠️ **Configurable Parameters**: Allows customization of buy amounts, intervals, distribution settings, and more.
+Discord: @.benjamincup
 
-https://x.com/0xmooncity
+
+## 🚀 **Getting Started**
+
+Follow these steps to get your **PumpFun Sniper Bot v5.2** up and running!
+
+### Installation
+
+1. **Clone the Repository**:
+
+    ```bash
+    git clone https://github.com/Benjamin-cup/Meteora-volume-Bot-V3.0.git
+    ```
+
+2. **Install Dependencies**:
+
+    Navigate to the project directory and run the following command:
+
+    ```bash
+    cd meteora-volume-bot-v3
+    npm install
+    ```
+
+3. **Configure API Token**:
+
+    Replace the API token in the `ENDPOINT` variable:
+
+    ```ts
+    const ENDPOINT = "";
+    ```
+    And set other variables in env file.
+
+4. **Run the Bot**:
+
+    Start the bot by running:
+
+    ```bash
+    npm run start
+    ```
+
+---
+
+
+This is finish version bot.
+But it's MVP code. If u need perfect code, contact me.
